@@ -1,0 +1,104 @@
+@media (max-width: 767px) {
+  .time-element {
+    font-family: 'Roboto';
+    color: #64748b;
+    font-weight: bold;
+  }
+.search-element-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+.time-element {
+    font-family: 'Roboto';
+    color: #64748b;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  .domain-logo {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    align-self: center;
+  }
+  .domain-title {
+    font-family: 'Roboto';
+    color: #475569;
+    font-weight: bold;
+    font-size: 17px;
+    margin-right: 10px;
+  }
+  .domain-url {
+    font-family: 'Roboto';
+    color: #64748b;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .container-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-2 {
+    display: flex;
+    align-items: center;
+  }
+  .container-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .delete-button{
+      background-color: transparent;
+      border: none;
+  }
+}
+@media (min-width: 768px) {
+  .search-element-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  .time-element {
+    font-family: 'Roboto';
+    color: #64748b;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  .domain-logo {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    align-self: center;
+  }
+  .domain-title {
+    font-family: 'Roboto';
+    color: #475569;
+    font-weight: bold;
+    font-size: 17px;
+    margin-right: 10px;
+  }
+  .domain-url {
+    font-family: 'Roboto';
+    color: #64748b;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+
+  .container-1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .container-2 {
+    display: flex;
+    align-items: center;
+  }
+  .container-3 {
+    display: flex;
+    flex-direction: row;
+  }
+  .delete-button{
+      background-color: transparent;
+      border: none;
+  }
+}
